@@ -26,6 +26,7 @@ class StatServiceImplementationTest {
     @Test
     @Sql(scripts = "/database/fill-data-for-dna-table.sql", executionPhase = Sql.ExecutionPhase.BEFORE_TEST_METHOD)
     void checkStatisticsFromDB(){
+        
         ResponseDTO responseDTO = statService.getStatisticsFromPopulationDNA();
         Assertions.assertEquals(1L, responseDTO.getCountMutantDna());
         Assertions.assertEquals(2L, responseDTO.getCountHumanDna());
