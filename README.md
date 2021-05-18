@@ -31,7 +31,7 @@
  
 * **Error Response:**
 
-  If the DNA sequence given is from a human the API will return a Http status code 403 OK, also if the DNA sequence is not NxN (Symmetric) or if the given DNA does not have a correct nitrogenous base the response will be a Http status code 403 Forbidden.
+  If the DNA sequence given is from a human the API will return a Http status code 403 FORBIDDEN, also if the DNA sequence is not NxN (Symmetric) or if the given DNA does not have a correct nitrogenous base the response will be a Http status code 403 FORBIDDEN.
   
   * **Code:** 403 FORBIDDEN <br />
 ----
@@ -52,7 +52,7 @@
   
   This endpoint returns a object with the general info about the poblation stored in the database.
 
-  * **Code:** 200 <br />
+  * **Code:** 200 OK<br />
     **Content:** `{
     "count_mutant_dna": 1,
     "count_human_dna": 1,
