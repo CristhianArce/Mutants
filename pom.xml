@@ -15,7 +15,11 @@
 	<description>MercadoLibre Challenge</description>
 	<properties>
 		<java.version>1.8</java.version>
+		<sonar.projectKey>CristhianArce_Mutants</sonar.projectKey>
+		<sonar.organization>cristhianarce</sonar.organization>
+		<sonar.host.url>https://sonarCloud.io</sonar.host.url>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
