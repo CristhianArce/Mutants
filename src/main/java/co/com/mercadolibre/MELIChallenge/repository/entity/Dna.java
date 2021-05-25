@@ -1,10 +1,11 @@
 package co.com.mercadolibre.MELIChallenge.repository.entity;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
 @Table(name = "adn")
-public class Dna {
+public class Dna implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
