@@ -1,7 +1,9 @@
 **Mutants**
-
-[![Coverage Status](https://coveralls.io/repos/github/CristhianArce/Mutants/badge.svg?branch=main)](https://coveralls.io/github/CristhianArce/Mutants?branch=main)
 ----
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=CristhianArce_Mutants&metric=coverage)](https://sonarcloud.io/dashboard?id=CristhianArce_Mutants)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=CristhianArce_Mutants&metric=security_rating)](https://sonarcloud.io/dashboard?id=CristhianArce_Mutants)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=CristhianArce_Mutants&metric=bugs)](https://sonarcloud.io/dashboard?id=CristhianArce_Mutants)
+
   This API is designed to validate a DNA sequence if it is from a human or a mutant, the validation method will store the DNA sequence as a unique key.<br><br>
   The API also can retrieve information about the poblation stored.
 
