@@ -10,7 +10,9 @@ public class Dna implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long dnaId;
+	@Column(name = "DNA_SEQ", length = 1500, columnDefinition = "LONGTEXT")
 	private String dnaSequence;
+	@Column(name = "IS_MUTANT", length = 1)
 	private Long  isMutant;
 
 
@@ -22,7 +24,7 @@ public class Dna implements Serializable {
 		this.dnaId = dnaId;
 	}
 
-	@Column(name = "DNA_SEQ", length = 1500)
+
 	public String getDnaSequence() {
 		return dnaSequence;
 	}
@@ -31,7 +33,7 @@ public class Dna implements Serializable {
 		this.dnaSequence = dnaSequence;
 	}
 
-	@Column(name = "IS_MUTANT", length = 1)
+
 	public Long getIsMutant() {
 		return isMutant;
 	}

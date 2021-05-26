@@ -51,7 +51,7 @@ public class DnaServiceImplementation implements DnaService {
 			}
 
 		}catch (Exception e){
-			System.out.println("error" + e);
+			System.err.println("error" + e);
 		}
 		return false;
 	}
