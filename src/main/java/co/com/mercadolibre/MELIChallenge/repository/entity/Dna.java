@@ -22,7 +22,7 @@ public class Dna implements Serializable {
 		this.dnaId = dnaId;
 	}
 
-	@Column(name = "DNA_SEQ", length = 400)
+	@Column(name = "DNA_SEQ", length = 1500)
 	public String getDnaSequence() {
 		return dnaSequence;
 	}
