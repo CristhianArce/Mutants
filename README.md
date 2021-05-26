@@ -1,4 +1,6 @@
 **Mutants**
+
+[![Coverage Status](https://coveralls.io/repos/github/CristhianArce/Mutants/badge.svg?branch=main)](https://coveralls.io/github/CristhianArce/Mutants?branch=main)
 ----
   This API is designed to validate a DNA sequence if it is from a human or a mutant, the validation method will store the DNA sequence as a unique key.<br><br>
   The API also can retrieve information about the poblation stored.
